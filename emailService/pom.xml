@@ -29,7 +29,7 @@
                   <groupId>org.springframework.boot</groupId>
                   <artifactId>spring-boot-maven-plugin</artifactId>
                   <configuration>
-                           <mainClass>com.kaankaplan.emailService.com.kaankaplan.emailService</mainClass>
+                           <mainClass>com.kaankaplan.emailService.EmailServiceApplication</mainClass>
                   </configuration>
                   <executions>
                           <execution>
