@@ -1,3 +1,3 @@
 FROM ccpr.cocktailcloud.io/docker.io/library/eclipse-temurin:17.0.11_9-jdk-alpine
-COPY target/userService-1.0-SNAPSHOT.jarr userService-1.0-SNAPSHOT.jar
+COPY target/userService-1.0-SNAPSHOT.jar userService-1.0-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","userService-1.0-SNAPSHOT.jar"]
