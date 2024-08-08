@@ -6,12 +6,13 @@ spring:
   ## MongoDB Properties
   data:
     mongodb:
-      authentication-database: admin
-      username: rootuser
-      password: rootpass
-      database: user
-      port: 27017
-      host: localhost
+      uri: ${MONGO_URL}
+#      authentication-database: admin
+#      username: rootuser
+#      password: rootpass
+#      database: user
+#      port: 27017
+#      host: localhost
       auto-index-creation: true
   ## Zipkin and Sleuth Properties
   zipkin:
