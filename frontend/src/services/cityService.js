@@ -2,7 +2,7 @@ import axios from "axios";
 
 export class CityService {
 
-    apiUrl = "http://localhost:8080/api/movie/cities/"
+    apiUrl = "http://movie:8080/api/movie/cities/"
 
     getCitiesByMovieId(movieId) {
         return axios.get(this.apiUrl + "getCitiesByMovieId/" + movieId);
