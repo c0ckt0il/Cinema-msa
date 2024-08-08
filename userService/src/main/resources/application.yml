@@ -10,7 +10,7 @@ spring:
       auto-index-creation: true
   ## Zipkin and Sleuth Properties
   zipkin:
-    base-url: http://zipkin-service:9411
+    base-url: http://zipkin:9411
   sleuth:
     sampler:
       probability: 1.0
