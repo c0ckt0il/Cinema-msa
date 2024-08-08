@@ -6,7 +6,7 @@ spring:
     name: eureka-server
   # Zipkin Properties
   zipkin:
-    base-url: http://eureka:9411
+    base-url: http://zipkin:9411
   # Sleuth Properties
   sleuth:
     sampler:
